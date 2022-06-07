@@ -1,0 +1,18 @@
+{
+    "books": [
+        {
+            "name": "Атом одатлар",
+            "year": 2012,
+            "price": 70,
+            "img": "https://assets.asaxiy.uz/product/items/desktop/be1bc7997695495f756312886f5661102022042721444072504yCTRpe6uKr.jpg.webp",
+            "id": "dd23a55a-bd93-4fcf-909e-fdcf5d909a46"
+        },
+        {
+            "name": "Fact fullnes",
+            "year": 2001,
+            "price": 120,
+            "img": "https://assets.asaxiy.uz/product/items/desktop/be1bc7997695495f756312886f5661102022042721444072504yCTRpe6uKr.jpg.webp",
+            "id": "fb8025cc-4b61-4888-b64a-46d0bafa5dfd"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+<h1>All books</h1>
+
+<div class="books">
+    {{#if books}}
+    <div class="row">
+        {{#each books}}
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-image">
+                    <img src={{img}} alt={{img}}>
+                    <span class=" card-title" style="color: black;">{{name}} - {{price}}$</span>
+                </div>
+                <div class="card-content">
+                    <p>{{year}}</p>
+                </div>
+                <div class="card-action">
+                    <a href="/api/books/{{id}}">This is a link</a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    {{else}}
+    <h2>Books are empty</h2>
+    {{/if}}
+</div>
+
+
+<a href="/api/books/add">Add book</a>
